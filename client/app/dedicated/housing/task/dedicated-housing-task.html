@@ -16,10 +16,10 @@
         <oui-column data-title=":: tr('housing_configuration_task_status')">
             <span data-ng-bind="tr('housing_configuration_task_status_'+ $row.status)"
                   data-ng-class="{
-                      'label-success': $row.status == task_status.DONE.toLowerCase(),
-                      'label-info': $row.status == task_status.DOING.toLowerCase(),
-                      'label-danger': $row.status == task_status.OVH_ERROR.toLowerCase() || $row.status == task_status.CUSTOMER_ERROR.toLowerCase(),
-                      'label-warning': $row.status == task_status.INIT.toLowerCase() || $row.status == task_status.TODO.toLowerCase()
+                      'label-success': $row.status === task_status.DONE.toLowerCase(),
+                      'label-info': $row.status === task_status.DOING.toLowerCase(),
+                      'label-danger': $row.status === task_status.OVH_ERROR.toLowerCase() || $row.status === task_status.CUSTOMER_ERROR.toLowerCase(),
+                      'label-warning': $row.status === task_status.INIT.toLowerCase() || $row.status === task_status.TODO.toLowerCase()
                   }">
             </span>
         </oui-column>
