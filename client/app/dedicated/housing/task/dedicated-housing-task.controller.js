@@ -1,4 +1,4 @@
-angular.module("App").controller("HousingTaskCtrl", ($scope, $stateParams, Housing, TASK_STATUS, Alerter) => {
+angular.module("App").controller("HousingTaskCtrl", ($scope, $stateParams, $q, Housing, TASK_STATUS, Alerter) => {
     "use strict";
 
     $scope.transformItem = function (task) {
@@ -15,5 +15,6 @@ angular.module("App").controller("HousingTaskCtrl", ($scope, $stateParams, Housi
         };
     }).catch((err) => {
         Alerter.alertFromSWS($scope.tr("housing_configuration_task_loading_error"), err, "housing_tab_tasks_alert");
+        return $q.reject(err);
     });
 });
