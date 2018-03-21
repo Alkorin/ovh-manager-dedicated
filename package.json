@@ -64,7 +64,7 @@
     "ovh-angular-actions-menu": "^3.0.0",
     "ovh-angular-export-csv": "^0.3.2",
     "ovh-angular-http": "^3.0.1",
-    "ovh-angular-otrs": "^5.0.0",
+    "ovh-angular-otrs": "https://github.com/ovh-ux/ovh-angular-otrs.git#cb2c44f35f7ee8db74288a743d61578240393c9a",
     "ovh-angular-pagination-front": "^7.0.0",
     "ovh-angular-proxy-request": "^0.1.0",
     "ovh-angular-q-allsettled": "^0.3.1",

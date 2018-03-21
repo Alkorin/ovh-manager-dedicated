@@ -4881,9 +4881,9 @@ ovh-angular-http@^3.0.1:
     jquery "~2.1.3"
     lodash "~3.3.0"
 
-ovh-angular-otrs@^5.0.0:
+"ovh-angular-otrs@https://github.com/ovh-ux/ovh-angular-otrs.git#cb2c44f35f7ee8db74288a743d61578240393c9a":
   version "5.0.0"
-  resolved "https://registry.yarnpkg.com/ovh-angular-otrs/-/ovh-angular-otrs-5.0.0.tgz#5b93691645b34628665b53cbfbf73345ae2e1fbd"
+  resolved "https://github.com/ovh-ux/ovh-angular-otrs.git#cb2c44f35f7ee8db74288a743d61578240393c9a"
 
 ovh-angular-pagination-front@^7.0.0:
   version "7.0.0"
